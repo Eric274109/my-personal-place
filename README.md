@@ -1,2 +1,1 @@
-# my-personal-place
-My very own webiste
+It took me a month to make this.
