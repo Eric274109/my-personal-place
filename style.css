@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap");
+
+#page_wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: white;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b0b0b0;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 16px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 32px;
+}
+
+a:visited {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: gray;
+  color: #f1f1f1;
+}
+
+a:active {
+  background-color: lightgray;
+}
+
+#homehead {
+  font-family: Georama;
+  margin-left: 16px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+#hometext {
+  font-family: Georama;
+  margin-left: 50px;
+  font-size: 32px;
+  color: white;
+}
+
+#elementtext {
+  font-family: Georama;
+  margin-left: 50px;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 16px;
+  text-decoration: bold;
+  color: white;
+}
+
+#middletext {
+  font-family: Georama;
+  margin-left: 50px;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 16px;
+  text-decoration: bold;
+  color: white;
+}
+
+#futuretext {
+  font-family: Georama;
+  margin-left: 50px;
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 16px;
+  text-decoration: bold;
+  color: white;
+}
+
+#avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+html {
+  background: url("https://cdn.wallpapersafari.com/39/14/rfFgkW.png") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#schoolimg {
+  border: solid white 1px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#edunav {
+  list-style-type: none;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-left: 16px;
+  padding-left: 16px;
+  width: 180px;
+  height: 230px;
+  background-color: #333;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+}
+
+#elementray a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#middle a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#future a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+.edu a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#schoolstart {
+  font-family: Georama;
+  font-size: 27px;
+  text-align: center;
+  color: white;
+}
+
+#schoolstarttext {
+  font-family: Georama;
+  font-size: 27px;
+  text-align: center;
+  color: white;
+}
+
+#collegetext {
+  margin-left: 36px;
+  padding-bottom: 16px;
+  width: 280px;
+  font-family: Georama;
+  color: white;
+  font-size: 27px;
+}
+
+#hobbynav {
+  list-style-type: none;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-left: 16px;
+  padding-left: 16px;
+  width: 165px;
+  height: 230px;
+  background-color: #333;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+}
+
+#coding a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#youtube a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#minecraft a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#hobbynav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#codingtext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#endertext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+#youtubetext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#minecrafttext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#greenparrottext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+#othernav {
+  list-style-type: none;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-left: 16px;
+  padding-left: 16px;
+  width: 165px;
+  height: 230px;
+  background-color: #333;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+}
+
+#othernav a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#piano a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#websites a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#pianotext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#websitestext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#links {
+  margin-left: 36px;
+  padding-bottom: 16px;
+  width: 600px;
+  font-family: Georama;
+  color: white;
+  font-size: 27px;
+}
+
+#parrots a {
+  display: flex;
+  color: #333;
+  padding: 8px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin: auto;
+}
+
+#parrotstext {
+  font-family: Georama;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
