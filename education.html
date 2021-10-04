@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="https://cdn.glitch.com/afd14d23-daa6-4c04-8ba0-bd3709968c4f%2FFree_Sample_By_Wix.png?v=1629376692322"
+    />
+    <script>
+      var countDownDate = new Date("Jun 20, 2022 3:05:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("schoolstart").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("schoolstart").innerHTML =
+        "School now has started";
+        }
+      }, 1000);
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <ul id="nav">
+      <li><a id="home" href="index.html">Home</a></li>
+      <li><a id="education" href="education.html">Education</a></li>
+      <li><a id="hobbies" href="hobbies.html">Hobbies</a></li>
+      <li><a id="other" href="other.html">Other</a></li>
+    </ul>
+    <ul id="edunav">
+      <li><a id="elementary" href="#elementtext">Elementray</a></li>
+      <li><a id="middle" href="#middletext">Middle</a></li>
+      <li><a id="future" href="#futuretext">Future</a></li>
+    </ul>
+    <h1 id="homehead">My Education</h1>
+    <h2 id="elementtext">Elementary</h2>
+    <img
+      id="schoolimg"
+      src="http://tapinto-production.s3.amazonaws.com/uploads/articles/ei/facebook_690de8fb5fb58ac74353_eisenhower_2.jpg"
+      style="width: 40vw; display: block; margin-left: auto; margin-right: auto; margin-bottom: 40px;"
+    />
+    <p id="hometext">
+      I went to Dwight D. Eisenhower Elementary School from 2014 to 2017. I
+      don't have much memories to share. Kindergarten was very boring, the only
+      fun thing we did was eat cake because of the teacher's birthday. I didn't
+      like first grade either, but at very least I learned a little. It was in
+      second grade when I started to understand lessons and completed most of my
+      homework. Everything changed in third grade when I met my favorite
+      teacher. She helped me in writing and arithmetic and eventually, I raised
+      my median grade by 30 points.
+    </p>
+    <img
+      id="schoolimg"
+      src="https://p8cdn4static.sharpschool.com/userfiles/servers/server_234480/image/1.png"
+      style="width:40vw; display: block; margin-left: auto; margin-right: auto; "
+    />
+    <p id="hometext">
+      After I "graduated" from my elementary school, I went to the upper
+      elementary school for grades 4-5. These were the years that I made most of
+      my memories in. In fourth grade, I met two nice teachers and they would
+      take the time to teach me new things and help me through LAL and math.
+      Later, I on moved to fifith grade. My language arts teacher was the best
+      teacher in the world. Even though I didn't do well on tests, she boosted
+      my scores to get me into advanced class for sixth grade.
+    </p>
+    <h2 id="middletext">Middle</h2>
+    <img
+      id="schoolimg"
+      src="http://p8cdn4static.sharpschool.com/userfiles/servers/server_234622/image/sms%202020.jpg"
+      style="width:40vw; display: block; margin-left: auto; margin-right: auto; "
+    />
+    <p id="hometext">
+      I just completed one grade of middle school so there is not much to tell
+      other than that I spent the whole year at home getting A+'s and A's even
+      though I didn't paying attention.
+    </p>
+    <p id="schoolstart"></p>
+    <p id="schoolstarttext">Time until school starts (At least for me)</p>
+    <h2 id="futuretext">Future</h2>
+    <img
+      id="schoolimg"
+      src="https://www.posen.com/mc_images/product/detail/middesex_academy_web.jpg"
+      style="width: 40vw; display: block; margin-left: auto; margin-right: auto; margin-bottom: 40px;"
+    />
+    <p id="hometext">
+      As for high school, I would like to learn at my county's school for
+      technology and math. It is kind of like the specialized high schools in
+      NY, except they have less questions on the test and is much harder to get
+      into (you need straight A+'s).
+    </p>
+    <img
+      id="schoolimg"
+      src="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/MIT_16x9_0.jpg?itok=bnlcDECo"
+      style="width: 40vw; display: block; margin-left: auto; margin-right: auto; margin-bottom: 40px;"
+    />
+    <img
+      id="schoolimg"
+      src="https://www.collegeconsensus.com/wp-content/uploads/2016/12/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg"
+      style="width: 40vw; display: block; margin-left: auto; margin-right: auto; margin-bottom: 40px;"
+    />
+    <p id="hometext">
+      I have been also looking foward to going to college so I have listed them
+      below. I put them in ranks so you know which colleges I like most.
+    </p>
+    <ol id="collegetext">
+      <li>MIT (Massachusetts Institute of Technology)</li>
+      <li>Harvard University</li>
+      <li>Prinecton University</li>
+      <li>Columbia University</li>
+      <li>Unversity of Chicago</li>
+    </ol>
+  </body>
+</html>
